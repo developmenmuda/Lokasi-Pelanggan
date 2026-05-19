@@ -5,6 +5,12 @@ body {
   color: white;
 }
 
+/* tetap non-scroll */
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 .app {
   min-height: 100vh;
   display: flex;
@@ -13,6 +19,7 @@ body {
   flex-direction: column;
 }
 
+/* HEADER kembali seperti awal */
 .header {
   font-size: 22px;
   font-weight: 700;
@@ -24,6 +31,7 @@ body {
   text-align: center;
 }
 
+/* CARD kembali seperti awal (INI INTINYA) */
 .card {
   background: rgba(255, 255, 255, 0.06);
   border-radius: 16px;
